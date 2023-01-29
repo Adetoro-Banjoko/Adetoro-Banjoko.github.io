@@ -14,6 +14,13 @@ padding-left: 80px;
 padding-right: 80px;
 
 }
+
+.section-1{
+
+
+   
+
+}
 .header{
 
     display:flex;
@@ -35,13 +42,13 @@ padding-right: 80px;
 
     display:flex;
     justify-content: space-between;
-    margin-bottom: 150px;
+    margin-bottom: 160px;
 
 }
 
 .work-preview-img{
 
-
+margin-bottom: 20px;
 
 }
 
@@ -50,6 +57,7 @@ padding-right: 80px;
 
 
 display: flex;
+margin-bottom: 160px;
 
 }
 
@@ -65,9 +73,22 @@ flex: 60%;
 }
 
 
+.work-container{
+
+    margin-bottom: 150px;
+
+}
+
 .work-text{
 
     display:flex;
+
+}
+
+.sccu-work-text{
+
+    display:flex;
+    justify-content: flex-end;
 
 }
 
@@ -77,6 +98,13 @@ flex: 60%;
     flex-direction: column;
 
 }
+
+
+.sccu-img1{
+
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
 
 .haws-img1{
 
@@ -104,39 +132,16 @@ flex: 50%;
 
 }
 
-.work-sccu{
-
-    display: flex;
 
 
-}
 
-.sccu-container-left{
-
-    z-index: 5;
-    flex: 52.5196094%;
-
-}
-
-.sccu-container-right{
-
-    flex: 47.4803906%;
-}
-
-
-#sccu{
-
-    justify-content: flex-end;
-
-}
 
 /* ///////////////////////////////////////// TEXT STYLES ///////////////////////////////////////*/
 
 
 h1{
-    font-size: 9rem;
+    font-size: 11rem;
     line-height: 1.05;
-
 }
 
 
