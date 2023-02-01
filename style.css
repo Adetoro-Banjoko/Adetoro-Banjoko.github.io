@@ -6,30 +6,41 @@
    
 }
 
+body{
 
 
-.page-margin{
-
-padding-left: 80px;
-padding-right: 80px;
 
 }
 
-.section-1{
+header{
 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
 
-   
+.header-text{
+
+    /* flex: 1; */
+    padding-left: 60px;
+    padding-top: 90px;
 
 }
-.header{
 
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 50px;
+.left, .right{
+
+   flex: 1;
+}
+
+
+.right{
+
+display: flex;
+justify-content: flex-end;
 
 }
+
+
 
 .justify{
 
@@ -41,6 +52,8 @@ padding-right: 80px;
 
 
     display:flex;
+    padding-left: 60px;
+    padding-right: 60px;
     justify-content: space-between;
     margin-bottom: 160px;
 
@@ -49,106 +62,148 @@ padding-right: 80px;
 .work-preview-img{
 
 margin-bottom: 20px;
+border-radius: 14px;
 
 }
-
 
 .about-me{
 
+margin-bottom: 200px;
+max-width: 70%;
+
+}
+
+.work-images-container{
 
 display: flex;
-margin-bottom: 160px;
+gap: 30px;
 
 }
 
-.about-me-content{
+.work-images-right{
 
-flex: 60%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex: 1;
+
+padding-right: 60px;
 
 }
 
-.about-me-img{
 
-    flex: 40%;
+.work-images-left{
+
+    padding-left: 60px;
+    flex: 1;
 }
 
+.work-images{
 
-.work-container{
-
-    margin-bottom: 150px;
+    border:3px solid #b7094c;
+    border-radius: 14px;
+border-width:3px;
+border-style:solid;
+/* border-color:#b7094c; */
+border-color:#616894;
+ 
+max-width: 100%;
 
 }
 
 .work-text{
 
     display:flex;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap : 30px;
+
+    margin-bottom: 30px;
+}
+
+.work-main-container{
+
+    max-width: 50%;
 
 }
 
-.sccu-work-text{
-
-    display:flex;
-    justify-content: flex-end;
-
-}
-
-.work-img{
-
-    display:flex;
-    flex-direction: column;
-
-}
+.work-services-container{
 
 
-.sccu-img1{
-
-    align-self: flex-start;
-    margin-bottom: 20px;
-  }
-
-.haws-img1{
-
-  align-self: flex-end;
-  margin-bottom: 20px;
-}
-
-.haws-img2{
-
-   flex: 100%;
-   margin-bottom: 40px;
-  }
-  
-.haws-img-row{
-
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.row-1, .row-2{
-
-flex: 50%;
 
 }
 
 
+.work-body{
 
+max-width: 90%;
+
+}
 
 
 /* ///////////////////////////////////////// TEXT STYLES ///////////////////////////////////////*/
 
 
 h1{
-    font-size: 11rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
     line-height: 1.05;
+    /* color: #892b64; */
+    /* color: #a01a58; */
+    color: #b7094c;
 }
 
 
 h2{
 
-align-self: flex-start;
+padding-left: 60px;
+font-size: 3rem;
+/* align-self: flex-start; */
+/* color: #7AA6B0; */
+/* color: #512D4E; */
+color: #b7094c;
+/* color: #723C70 */
+font-weight: 900;
 
+
+}
+
+u{
+
+    text-decoration: underline;
+    text-decoration-thickness: .7rem;
+    /* text-decoration-color: #616894; */
+    text-decoration-color: #616894;
+
+
+
+}
+
+
+h3{
+
+    font-size: 2.5rem;
+    color: #b7094c;
+    font-weight: 800;
+
+}
+
+h4{
+
+    font-size: 1rem;
+    color: #b7094c;
+    font-weight: 800;
+
+}
+
+.link{
+
+    font-size: 1rem;
+    color: #b7094c;
+    font-weight: 600;
+    align-self: flex-end;
 }
 
 a{
@@ -156,6 +211,51 @@ a{
     text-decoration: none;
 
 }
+
+p{
+    font-size: 1.19rem;
+    color: #322a35;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.callout-heading1{
+    /* padding-left: 90px; */
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    /* color: #b7094c; */
+    color: #ffffff;
+}
+
+.callout-heading2{
+ padding-left: 60px;
+ padding-top: 20px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 2rem;
+ color: #b7094c;
+
+}
+
+.callout-heading3{
+    
+    padding-top:180px;
+    padding-left:180px;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+   
+   }
+
+   .callout-heading4{
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 3rem;
+    color: #b7094c;
+   
+   }
 
 .section-header{
 
@@ -180,12 +280,7 @@ a{
 
 
 
-@media (max-width: 768px) {
-
-
-.work-preview{display:none;}
-
-h1{font-size: 7rem;}
+@media (min-width: 768px) {
 
 
 
