@@ -89,7 +89,16 @@ border-radius: 14px;
 .about-me{
 
 margin-bottom: 200px;
-max-width: 70%;
+/* max-width: 70%; */
+display: flex;
+
+
+}
+
+.about-me-left, .about-me-right{
+
+
+    flex: 1;
 
 }
 
@@ -232,11 +241,27 @@ a{
 
 }
 
-p{
+ul{
+
+    /* list-style-image: url('sqpurple.gif'); */
+    list-style-type: none;  
+    padding-left:0;
+
+
+
+}
+
+p, li{
     font-size: 1.19rem;
     color: #322a35;
     font-weight: 500;
     font-family: 'DM Sans', sans-serif;
+
+}
+
+li{
+
+line-height: 160%;
 
 }
 
