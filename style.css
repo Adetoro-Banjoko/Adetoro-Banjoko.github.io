@@ -237,6 +237,20 @@ max-width: 90%;
 
 }
 
+/* .work-link{
+
+  
+} */
+
+
+.work-link:hover{
+
+    
+color:  #EDC79B;
+
+
+}
+
 .contact{
 
 border-radius: 14px;
@@ -394,9 +408,15 @@ ul{
 }
 
 a{
-
+    color: #616894;
     text-decoration: none;
    
+
+}
+
+a:hover{
+
+    color: #EDC79B;
 
 }
 
